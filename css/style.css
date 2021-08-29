@@ -3,12 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background: rgba(0, 182, 114, 0.58);
+}
 #canvas {
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: radial-gradient(#000, #111, #222, #333, #444);
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 700px;
+  width: 700px;
+  background-color: #fff;
 }

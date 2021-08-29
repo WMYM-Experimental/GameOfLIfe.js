@@ -8,8 +8,15 @@ const RESOLUTION = 15; //cell size
 const COLS = canvas.width / RESOLUTION;
 const ROWS = canvas.height / RESOLUTION;
 
+function getRandomInt(min, max) {
+  let randomInt = Math.floor(Math.random() * (max - min + 1) + min);
+  return randomInt;
+}
+
 function createGrid() {
-  const grid = new Array(COLS).fill(null).map(() => new Array(ROWS).fill(0));
+  const grid = new Array(COLS)
+    .fill(null)
+    .map(() => new Array(ROWS).fill(null).map(() => getRandomInt(0, 1)));
   return grid;
 }
 
@@ -26,3 +33,4 @@ function drawGrid(grid) {
 
 const mainGrid = createGrid();
 drawGrid(mainGrid);
+console.log(mainGrid);

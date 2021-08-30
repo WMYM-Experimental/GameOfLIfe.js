@@ -86,8 +86,18 @@ function animate() {
   requestAnimationFrame(animate);
 }
 
-//listener
+//event listeners
+window.addEventListener("keydown", () => {
+  document.body.style.background = `rgba(
+    ${getRandomInt(0, 255)},
+    ${getRandomInt(0, 255)},
+    ${getRandomInt(0, 255)},
+    0.58)`;
+});
 
+window.addEventListener("click", () => {
+  this.location.reload();
+});
 //run
 let mainGrid = createGrid();
 animate();

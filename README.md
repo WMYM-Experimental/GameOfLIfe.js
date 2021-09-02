@@ -14,4 +14,4 @@ This is an image of the final deployment.
 
 There is a link in the description section but i done a QR for you!
 
-![](img/readme_imgs/qrGoL.jpg)
+![](img/readme_imgs/qrGoL.jpeg)

@@ -17,3 +17,8 @@ body {
   background-color: #eee;
   border-radius: 1%;
 }
+@media (max-width: 702px) {
+  #canvas {
+    margin-top: 30%;
+  }
+}

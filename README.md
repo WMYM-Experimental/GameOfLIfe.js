@@ -11,7 +11,3 @@ The Game of Life, also known simply as Life, is a cellular automaton devised by 
 This is an image of the final deployment.
 
 ![](img/readme_imgs/sample.jpeg)
-
-There is a link in the description section but i done a QR for you!
-
-![](img/readme_imgs/qrGoL.jpeg)
